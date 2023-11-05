@@ -1,0 +1,43 @@
+/* TeacherNavbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0077B6; /* Set your desired background color */
+  padding: 10px 20px;
+  color: #ffffff; /* Set your desired text color */
+  text-decoration: none; /* Remove underline from the text */
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.teacher-name {
+  font-size: 20px;
+  color: #ffffff; /* Set your desired text color */
+  margin-right: 10px;
+  text-decoration: none; /* Remove underline from the text */
+}
+
+.globe-icon {
+  width: 20px; /* Set the desired width for the globe icon */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
+
+.language-dropdown {
+  background-color: #0077B6; /* Light Blue */
+  color: #ffffff; /* White */
+  font-size: 16px;
+  border: 1px solid #ffffff; /* White */
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  text-decoration: none; /* Remove underline from the text */
+}
+
+.language-dropdown:hover {
+  background-color: #8dc4e1; /* Lime Green */
+  color: white;
+}
